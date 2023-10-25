@@ -33,3 +33,15 @@ Use torch.save to save your trained model.
 An example of the digits the classifier will try to class into 0-9 labels, using the programmed model:
 
 ![](https://github.com/tobyStone/MNIST-Classifier-/blob/main/MNISTexample.png)
+
+
+The model then learns the parameters behind each of the digits, updating the weight or importance of each of these parameters until it increases its correct predictions beyond 1 in 10, to close to 62%:
+
+![](https://github.com/tobyStone/MNIST-Classifier-/blob/main/MNIST%20epoch%20print.PNG)
+
+
+The results showing a randomly split validation grouping along with the training from above, with the loss function plotted.
+
+![](https://github.com/tobyStone/MNIST-Classifier-/blob/main/MNIST%20plotted.PNG)
+
+90% accuracy has not yet been acheived so future work would be to remove some of the layers of the model (I have used convolutional, linear, max pooling, and dropout layers) in order to test which combination of these hyoerparameters (including epoch number, learning rate, etc...) increase the accuracy.
