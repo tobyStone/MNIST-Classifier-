@@ -30,6 +30,6 @@ Step 5
 Use torch.save to save your trained model.
 
 
-An example of the digits the classifoer will try to class into 0-9 labels, using the programmed model:
+An example of the digits the classifier will try to class into 0-9 labels, using the programmed model:
 
 ![](https://github.com/tobyStone/MNIST-Classifier-/blob/main/MNISTexample.png)
