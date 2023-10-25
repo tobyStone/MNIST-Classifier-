@@ -23,7 +23,7 @@ Use the training DataLoader to train your neural network
 Step 4
 
 Evaluate your neural network’s accuracy on the test set.
-Tune your model hyperparameters and network architecture to improve your test set accuracy, achieving at least 90% accuracy on the test set.
+Tune your model hyperparameters and network architecture to improve your test set accuracy.
 
 Step 5
 
@@ -44,4 +44,4 @@ The results showing a randomly split validation grouping along with the training
 
 ![](https://github.com/tobyStone/MNIST-Classifier-/blob/main/MNIST%20plotted.PNG)
 
-90% accuracy has not yet been acheived so future work would be to remove some of the layers of the model (I have used convolutional, linear, max pooling, and dropout layers) in order to test which combination of these hyoerparameters (including epoch number, learning rate, etc...) increase the accuracy.
+A high level of accuracy has not yet been acheived so future work would be to remove some of the layers of the model (I have used convolutional, linear, max pooling, and dropout layers) in order to test which combination of these hyperparameters (including epoch number, learning rate, etc...) increase the accuracy.
